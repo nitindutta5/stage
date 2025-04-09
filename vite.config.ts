@@ -10,5 +10,9 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: './src/setupTests.ts',
     exclude: [...configDefaults.exclude, 'e2e'],
-  },
+  },  
+  server: {
+    host: '127.0.0.1',
+    port: 5173
+  }
 });
