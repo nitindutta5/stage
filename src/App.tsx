@@ -8,9 +8,8 @@ function App() {
   const [userId, setUserId] = useState<number | null>(null);
   return (
     <div>
-      {/* Map the user thumbnail */}
+      <h1>Instagram</h1>
       <StoryHeader users={users} setUserId={setUserId} />
-      {/* On click of the thumbnail nail open the images and hide after showing all slides for 5 min */}
       {userId && <StoryViewer userId={userId} setUserId={setUserId} />}
     </div>
   );
