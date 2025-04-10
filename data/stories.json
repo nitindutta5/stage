@@ -1,0 +1,15 @@
+[
+  {
+    "userId": 1,
+    "data": ["/s1.jpg", "/s2.jpg", "/s3.jpg"]
+  },
+  { "userId": 2, "data": ["/s2.jpg", "/s1.jpg", "/s3.jpg"] },
+  {
+    "userId": 3,
+    "data": ["/s3.jpg", "/s1.jpg", "/s2.jpg", "/s3.jpg","/s3.jpg"]
+  },
+  {
+    "userId": 4,
+    "data": ["/s3.jpg", "/s1.jpg", "/s2.jpg", "/s3.jpg","/s3.jpg"]
+  }
+]
